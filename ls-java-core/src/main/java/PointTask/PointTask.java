@@ -9,12 +9,12 @@ public class PointTask {
         //Заполнение координат точки А(x,y)
         System.out.println("Введите значений точки А(x,y).\nДопусткается ввод с разделителем \",\" (5,8870).");
         pointA.MethodOfEnteringCoordinatesPoint();
-        System.out.println(pointA.toString());
+        System.out.println(pointA);
 
         //Заполнение координат точки B(x,y)
         System.out.println("Введите значений точки B(x,y).\nДопусткается ввод с разделителем \",\" (5,8870). ");
         pointB.MethodOfEnteringCoordinatesPoint();
-        System.out.println(pointB.toString());
+        System.out.println(pointB);
 
         System.out.println("Вывод расстояния между точками A и B: " +
               pointA.distance(pointB));
