@@ -7,29 +7,36 @@ public class OddTask {
     public static void main(String[] args) {
 
         int number;
-        Scanner sc = new Scanner(System.in);
+
         do {
             try {
+                Scanner sc = new Scanner(System.in);
                 System.out.print("\nВведите целое число или для выхода введите 0.\n");
                 System.out.print("Введите число: ");
                 number = sc.nextInt();
 
-                //Проверка результата
-                if(number != 0)
-                {
+            } catch (Exception e) {
+                System.out.println("\n *** Сообщение об ошибке. ***" +
+                        "\n * Введено не корретное значение." +
+                        "\n * Допусткается ввод целых чисел.");
+                number = -1;
+            }
+
+            //Проверка результата
+            if(number != 0)
+            {
+                if(number == -1)
+                    System.out.println("\nЧисло введено с ошибкой попробуйте еще раз.\n");
+                else {
                     if (isOdd(number))
                         System.out.println("Вы ввели ЧЕТНОЕ число.\n");
                     else
                         System.out.println("Вы ввели НЕЧЕТНОЕ число.\n");
                 }
-                else
-                    break;
-
-            } catch (Exception e) {
-                System.out.println("Сообщение об ошибке. " +
-                        "\nВведено не корретное значение." +
-                        "\nДопусткается ввод целых чисел.");
             }
+            else
+                break;
+
         }while (true);
     }
 
