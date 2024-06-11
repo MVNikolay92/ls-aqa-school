@@ -6,13 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/ls-java-core/pom.xml" />
         <option value="$PROJECT_DIR$/addressbook-web-tests/pom.xml" />
-        <option value="$PROJECT_DIR$/../ls-aqa-school-AlexanderZaytsev1989/addressbook-web-tests/pom.xml" />
       </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/../ls-aqa-school-AlexanderZaytsev1989/addressbook-web-tests/pom.xml" />
-      </set>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
   </component>
