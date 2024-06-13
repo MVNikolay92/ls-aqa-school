@@ -1,4 +1,4 @@
-package PointTask;
+package ru.ls.qa.school.core.PointTask;
 
 import java.util.Scanner;
 import static java.lang.Math.*;

@@ -1,4 +1,4 @@
-package PointTask;
+package ru.ls.qa.school.core.PointTask;
 
 public class PointTask {
     public static void main(String[] args) {
