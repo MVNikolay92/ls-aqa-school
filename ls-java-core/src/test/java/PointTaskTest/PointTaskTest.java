@@ -1,6 +1,6 @@
 package PointTaskTest;
 
-import PointTask.Point;
+import ru.ls.qa.school.core.PointTask.Point;
 import org.junit.jupiter.api.*;
 
 public class PointTaskTest {
