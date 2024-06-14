@@ -1,4 +1,4 @@
-package OddTask;
+package ru.ls.qa.school.core.OddTask;
 
 import java.util.Scanner;
 
