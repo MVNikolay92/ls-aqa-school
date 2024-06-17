@@ -7,6 +7,13 @@ public class Point {
     double pointX;
     double pointY;
 
+    public Point() { }
+
+    public Point(double pointX, double pointY) {
+        this.pointX = pointX;
+        this.pointY = pointY;
+    }
+
     public double getPointX() {
         return pointX;
     }
@@ -27,7 +34,7 @@ public class Point {
      * Расчет расстояния между двумя точками
      * @param point - в качестве параметра передается переменная класса Point
      * @return расстояние между 2 точками
-     */
+     ***/
     public double distance(Point point){
 
         double pointAx = this.pointX;
